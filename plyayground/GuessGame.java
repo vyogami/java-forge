@@ -32,6 +32,8 @@ public class GuessGame {
             choice = sc.nextLine();
 
        }
+
+       sc.close();
     }
 
     public static int randInt(int upperLimit) {
@@ -41,5 +43,4 @@ public class GuessGame {
     public static boolean guess(int guessInt, int correctInt){
         return guessInt == correctInt ? true : false;
     }
-
 }
