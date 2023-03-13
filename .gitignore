@@ -31,3 +31,7 @@ out/
 # Java-specific files
 *.class
 *.jar
+
+# Java Project specific files
+test*
+test*/
