@@ -1,3 +1,5 @@
+package playground;
+
 public class Digits {
 
     static int numberOfDigts(int number){
