@@ -5,7 +5,7 @@ public class GuessGame {
         Scanner sc = new Scanner(System.in);
         String choice = "y";
 
-        while (choice.equalsIgnoreCase("y")) {
+        while (choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("")) {
             
             int correctInt = randInt(50), guessInt;
 
