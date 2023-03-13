@@ -11,7 +11,7 @@ public class GuessGame {
 
             while(true) {
                 System.out.print("\nChoose a number between 0 and 50: ");
-                guessInt = sc.nextInt(); 
+                guessInt = Integer.parseInt(sc.nextLine()); 
 
                 if(guess(guessInt, correctInt)){
                     System.out.println("***** Woah! Aapko milte hai ek crore *****");
@@ -28,7 +28,6 @@ public class GuessGame {
             }
 
             System.out.print("\nDo you want to play again?(Y/n) ");
-            sc.nextLine();
             choice = sc.nextLine();
 
        }
