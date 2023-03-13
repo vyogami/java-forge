@@ -2,7 +2,7 @@ package playground;
 
 public class Digits {
 
-    static int numberOfDigts(int number){
+    public static int numberOfDigts(int number){
         int count = 0;
         while(number != 0){count++;
             number /= 10;
@@ -10,7 +10,7 @@ public class Digits {
         return count;
     }
 
-    static int numberOfDigtsUsingString(int number){
+    public static int numberOfDigtsUsingString(int number){
         return Integer.toString(number).length();
     }
 
@@ -24,8 +24,8 @@ public class Digits {
         return reverse;
     }
 
-    static int reverseUsingStringBuilder(int number){
-        StringBuilder reverse = new StringBuilder(Integer.toString(number)).reverse();
+    public static int reverseUsingStringBuilder(int number){
+        StringBuilder reverse = new StringBuilder().append(number).reverse();
         return Integer.parseInt(reverse.toString());
     }
 }
