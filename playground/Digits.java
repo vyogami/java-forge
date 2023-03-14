@@ -25,7 +25,6 @@ public class Digits {
     }
 
     public static int reverseUsingStringBuilder(int number){
-        StringBuilder reverse = new StringBuilder().append(number).reverse();
-        return Integer.parseInt(reverse.toString());
+        return Integer.parseInt(new StringBuilder().append(number).reverse().toString());
     }
 }
