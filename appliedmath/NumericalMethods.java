@@ -8,17 +8,22 @@ public class NumericalMethods {
         double c = (a+b)/2;
 
         if(function.fx(a)*function.fx(b) >= 0){
-            return 0.0;
+            throw new IllegalArgumentException("Invalid range [" + a + ", " + b + "]");
+        }
+
+        if (a > b) {
+            double temp = a;
+            a = b;
+            b = temp;
         }
 
         while(b-a >= TOLERANCE){
             c = (a+b)/2;
 
             if(function.fx(c) == 0.0){
-                System.out.println("Incorrect Range");
-                return 0.0;
+                break;
             }
-            else if(function.fx(a)*function.fx(c) < 0){
+            if(function.fx(a)*function.fx(c) < 0){
                 b = c; 
             }
             else{
@@ -33,8 +38,13 @@ public class NumericalMethods {
         int count = 1;
 
         if(function.fx(a)*function.fx(b) >= 0){
-            System.out.println("Incorrect Range");
-            return 0.0;
+            throw new IllegalArgumentException("Invalid range [" + a + ", " + b + "]");
+        }
+
+        if (a > b) {
+            double temp = a;
+            a = b;
+            b = temp;
         }
 
         while(b-a >= TOLERANCE){
@@ -44,10 +54,9 @@ public class NumericalMethods {
             }
 
             if(function.fx(c) == 0.0){
-                System.out.println("Incorrect Range");
-                return 0.0;
+                break;
             }
-            else if(function.fx(a)*function.fx(c) < 0){
+            if(function.fx(a)*function.fx(c) < 0){
                 b = c; 
             }
             else{
@@ -58,4 +67,5 @@ public class NumericalMethods {
         }
         return c;
     }
+
 }
