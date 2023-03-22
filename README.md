@@ -3,15 +3,18 @@
 Java Forge is a collection of Java code snippets, scripts, and examples that can be used as a reference for learning and development.
 
 ## Table of Contents
-
-- [Getting Started](#getting-started)
-- [Algorithms](#algorithms)
-- [Data Structures](#data-structures)
-- [Amity Java Programming](#amity-java-programming)
-- [Playground](#playground)
-- [Snippets](#snippets)
-- [Contributing](#contributing)
-- [License](#license)
+ 
+- [Java Forge](#java-forge)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [Algorithms](#algorithms)
+  - [Data Structures](#data-structures)
+  - [Applied Mathematics](#applied-mathematics)
+  - [Amity Java Programming](#amity-java-programming)
+  - [Playground](#playground)
+  - [Snippets](#snippets)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Getting Started
 
@@ -34,6 +37,10 @@ We have also included some exercises for each algorithm to help you practice and
 ## Data Structures
 
 The `data-structures` folder contains implementation of various data structures in Java. Each data structure is implemented in a separate file with a brief explanation of the data structure and its use cases.
+
+## applied mathematics
+
+the applied-mathematics folder contains python code that implements various mathematical concepts and equations. these files cover a range of topics, including linear algebra, calculus, probability, and more.
 
 ## Amity Java Programming
 
