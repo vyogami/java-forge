@@ -38,7 +38,7 @@ We have also included some exercises for each algorithm to help you practice and
 
 The `data-structures` folder contains implementation of various data structures in Java. Each data structure is implemented in a separate file with a brief explanation of the data structure and its use cases.
 
-## applied mathematics
+## Applied Mathematics
 
 the applied-mathematics folder contains python code that implements various mathematical concepts and equations. these files cover a range of topics, including linear algebra, calculus, probability, and more.
 
