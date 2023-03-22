@@ -1,5 +1,4 @@
-package appliedmath;
-
+package appliedmathematics;
 
 public class NumericalMethods {
 

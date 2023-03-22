@@ -1,3 +1,4 @@
+import appliedmathematics.NumericalMethods;
 import playground.*;
 
 public class Main {

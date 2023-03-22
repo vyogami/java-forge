@@ -40,7 +40,7 @@ The `data-structures` folder contains implementation of various data structures 
 
 ## Applied Mathematics
 
-the applied-mathematics folder contains python code that implements various mathematical concepts and equations. these files cover a range of topics, including linear algebra, calculus, probability, and more.
+the appliedmathematics folder contains python code that implements various mathematical concepts and equations. these files cover a range of topics, including linear algebra, calculus, probability, and more.
 
 ## Amity Java Programming
 
