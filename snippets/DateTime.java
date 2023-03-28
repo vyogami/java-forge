@@ -1,4 +1,4 @@
-package playground;
+package snippets;
 
 public class DateTime {
     public static boolean isLeapYear(int year){

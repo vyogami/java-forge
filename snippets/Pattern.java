@@ -1,4 +1,4 @@
-package playground;
+package snippets;
 
 
 public class Pattern {
