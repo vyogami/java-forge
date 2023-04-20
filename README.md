@@ -50,10 +50,10 @@ The `amity-java-programming` folder contains source code for various projects th
 
 The `playground` directory is where I experiment with new Python concepts and ideas. It contains a `Play.java` file which is untracked in git so feel free to explore and experiment in this directory.
 
-> To omit the changes to `play.py` run the following command
+> To omit the changes to `Play.java` run the following command
 
 ``` Bash
-git update-index --assume-unchanged ./playground/play.py
+git update-index --assume-unchanged ./playground/Play.java
 ```
 
 # Snippets
