@@ -46,11 +46,17 @@ the appliedmathematics folder contains python code that implements various mathe
 
 The `amity-java-programming` folder contains source code for various projects that are part of the Amity Java Programming course. These projects are designed to help you apply the concepts learned in the course to real-world scenarios.
 
-## Playground
+### Playground
 
-The `playground` folder is a space for you to experiment with Java code and try out new things. Feel free to create new files or modify existing ones to test out your ideas.
+The `playground` directory is where I experiment with new Python concepts and ideas. It contains a `play.py` file which is untracked in git so feel free to explore and experiment in this directory.
 
-## Snippets
+> To omit the changes to `play.py` run the following command
+
+``` Bash
+git update-index --assume-unchanged ./playground/play.py
+```
+
+# Snippets
 
 The `snippets` folder contains small code snippets that demonstrate various concepts in Java programming. These snippets are designed to be concise and easy to understand.
 
