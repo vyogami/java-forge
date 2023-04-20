@@ -11,8 +11,8 @@ Java Forge is a collection of Java code snippets, scripts, and examples that can
   - [Data Structures](#data-structures)
   - [Applied Mathematics](#applied-mathematics)
   - [Amity Java Programming](#amity-java-programming)
-  - [Playground](#playground)
-  - [Snippets](#snippets)
+    - [Playground](#playground)
+- [Snippets](#snippets)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -48,7 +48,7 @@ The `amity-java-programming` folder contains source code for various projects th
 
 ### Playground
 
-The `playground` directory is where I experiment with new Python concepts and ideas. It contains a `play.py` file which is untracked in git so feel free to explore and experiment in this directory.
+The `playground` directory is where I experiment with new Python concepts and ideas. It contains a `Play.java` file which is untracked in git so feel free to explore and experiment in this directory.
 
 > To omit the changes to `play.py` run the following command
 

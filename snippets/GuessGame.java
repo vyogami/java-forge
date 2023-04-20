@@ -1,4 +1,4 @@
-package playground;
+package snippets;
 
 import java.util.Scanner;
 
