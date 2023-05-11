@@ -3,10 +3,11 @@
 Java Forge is a collection of Java code snippets, scripts, and examples that can be used as a reference for learning and development.
 
 ## Table of Contents
- 
+
 - [Java Forge](#java-forge)
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
+    - [Tools](#tools)
   - [Algorithms](#algorithms)
   - [Data Structures](#data-structures)
   - [Applied Mathematics](#applied-mathematics)
@@ -22,11 +23,90 @@ To get started with Java Forge, you'll need to have Java Development Kit (JDK) i
 
 Once you have JDK installed, clone this repository to your local machine using the following command:
 
-```
+```bash
 git clone https://github.com/legitShivam/java-forge.git
 ```
 
 Alternatively, you can download the repository as a ZIP file and extract it to your desired location.
+
+### Tools
+
+To work with the Java Forge repository effectively, you may find the following tools useful:
+
+- **SDKMAN! (Software Development Kit Manager)**: SDKMAN! allows you to manage different versions of Java Development Kits (JDKs) on your system. You can use it to install, switch between, and manage Java versions. Refer to the SDKMAN! documentation for installation and usage instructions. Website: [https://sdkman.io/](https://sdkman.io/)
+
+- **Maven**: Maven is a build automation and dependency management tool for Java projects. It provides a declarative way to define project configurations, manage dependencies, and build Java applications. You can install Maven by following the official documentation. Website: [https://maven.apache.org/](https://maven.apache.org/)
+
+- **Gradle**: Gradle is another build automation and dependency management tool for Java projects. It offers a flexible and efficient way to build, test, and package Java applications. You can install Gradle by referring to the official documentation. Website: [https://gradle.org/](https://gradle.org/)
+
+<details>
+  <summary> <h3> Basic Commands </h3> </summary>
+
+Here are some basic commands that you may find helpful when working with this repository:
+
+
+<details>
+  <summary> SDKMAN! Commands: </summary>
+
+  - `sdk version`: Checks the version of SDKMAN! installed on your system.
+
+  - `sdk install java <version>`: Installs the specified version of Java. For example, `sdk install java 11.0.3-zulu` installs Zulu OpenJDK 11.0.3.
+    > you can install maven and gradle using sdkman as well.
+
+  - `sdk use java <version>`: Sets the specified version of Java as the current default. For example, `sdk use java 11.0.3-zulu` sets Zulu OpenJDK 11.0.3 as the default Java version.
+
+  - `sdk list java`: Lists the available Java versions that can
+  
+- `mvn clean install`: Builds the Java Forge project using Maven, resolving dependencies and generating the compiled output.
+
+- `gradle build`: Builds the Java Forge project using Gradle, resolving dependencies and generating the compiled output.
+
+- `java -jar <jar-file>`: Executes a compiled Java application from the generated JAR file.
+
+Refer to the respective documentation of each tool for more advanced usage and customization options.
+
+Certainly! Here are some common Maven and Gradle commands that you can use when working with Java projects:
+</details>
+
+<details> 
+  <summary> Maven Commands </summary>
+
+- `mvn clean`: Cleans the project by deleting the target directory and any generated files.
+
+- `mvn compile`: Compiles the source code of the project.
+
+- `mvn test`: Runs the unit tests for the project.
+
+- `mvn package`: Packages the compiled code and resources into a distributable format, such as a JAR or WAR file.
+
+- `mvn install`: Installs the package into the local Maven repository, making it available for other projects to use as a dependency.
+
+- `mvn clean install`: Performs a clean build, including cleaning the project, compiling, running tests, and packaging the application.
+
+- `mvn dependency:tree`: Displays the dependency tree of the project, showing the dependencies and their versions.
+</details>
+
+<details>
+  <summary> Gradle Commands </summary>
+
+- `gradle clean`: Cleans the project by deleting the build directory and any generated files.
+
+- `gradle build`: Compiles the source code, runs tests, and packages the application into a distributable format.
+
+- `gradle test`: Runs the unit tests for the project.
+
+- `gradle assemble`: Assembles the outputs of the project without running the tests.
+
+- `gradle install`: Installs the project into the local Maven or Ivy repository, making it available for other projects to use as a dependency.
+
+- `gradle clean build`: Performs a clean build, including cleaning the project, compiling, running tests, and packaging the application.
+
+- `gradle dependencies`: Displays the dependencies of the project, showing the dependencies and their versions.
+
+- `gradle tasks`: Displays the available tasks and their descriptions.
+</detials>
+</details>
+
 
 ## Algorithms
 
@@ -75,3 +155,7 @@ Please ensure that your code is well-documented and follows the [Java Code Conve
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+Sure! Here's an updated version of the readme file with the basic commands for SDKMAN! added:
+
+be installed and managed using SDKMAN!.
