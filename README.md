@@ -55,16 +55,7 @@ Here are some basic commands that you may find helpful when working with this re
 - `sdk use java <version>`: Sets the specified version of Java as the current default. For example, `sdk use java 11.0.3-zulu` sets Zulu OpenJDK 11.0.3 as the default Java version.
 
 - `sdk list java`: Lists the available Java versions that can
-  
-- `mvn clean install`: Builds the Java Forge project using Maven, resolving dependencies and generating the compiled output.
 
-- `gradle build`: Builds the Java Forge project using Gradle, resolving dependencies and generating the compiled output.
-
-- `java -jar <jar-file>`: Executes a compiled Java application from the generated JAR file.
-
-Refer to the respective documentation of each tool for more advanced usage and customization options.
-
-Certainly! Here are some common Maven and Gradle commands that you can use when working with Java projects:
 </details>
 
 <details>
@@ -104,6 +95,28 @@ Certainly! Here are some common Maven and Gradle commands that you can use when 
 - `gradle dependencies`: Displays the dependencies of the project, showing the dependencies and their versions.
 
 - `gradle tasks`: Displays the available tasks and their descriptions.
+
+</details>
+
+<details>
+  <summary> Java Commands </summary>
+
+- `java`: Runs a Java application. For example, `java MyClass` executes the `MyClass` class.
+
+- `javac`: Compiles Java source code files into bytecode. For example, `javac MyClass.java` compiles the `MyClass.java` file into `MyClass.class`.
+
+- `javap`: Disassembles a compiled Java class file and displays its bytecode. For example, `javap MyClass` shows the bytecode of the `MyClass` class.
+
+- `jar`: Creates a Java Archive (JAR) file. For example, `jar cf MyApp.jar MyClass.class` creates a JAR file named `MyApp.jar` containing the `MyClass.class` file.
+
+- `javadoc`: Generates HTML documentation from Java source code comments. For example, `javadoc MyClass.java` generates HTML documentation for the `MyClass` class.
+
+- `javadoc -d doc/ -sourcepath src/ com.example.MyClass`: Generates HTML documentation for the `com.example.MyClass` class and saves it in the `doc/` directory, assuming the source code is located in the `src/` directory.
+
+- `jshell`: Launches the Java Shell (JShell) for interactive Java programming and experimentation.
+
+- `javapackager`: Creates platform-specific native bundles (executable files) for Java applications. It is used to package Java applications as standalone executables.
+
 </details>
 </details>
 
