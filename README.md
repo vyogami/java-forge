@@ -44,18 +44,17 @@ To work with the Java Forge repository effectively, you may find the following t
 
 Here are some basic commands that you may find helpful when working with this repository:
 
-
 <details>
   <summary> SDKMAN! Commands: </summary>
 
-  - `sdk version`: Checks the version of SDKMAN! installed on your system.
+- `sdk version`: Checks the version of SDKMAN! installed on your system.
 
-  - `sdk install java <version>`: Installs the specified version of Java. For example, `sdk install java 11.0.3-zulu` installs Zulu OpenJDK 11.0.3.
+- `sdk install java <version>`: Installs the specified version of Java. For example, `sdk install java 11.0.3-zulu` installs Zulu OpenJDK 11.0.3.
     > you can install maven and gradle using sdkman as well.
 
-  - `sdk use java <version>`: Sets the specified version of Java as the current default. For example, `sdk use java 11.0.3-zulu` sets Zulu OpenJDK 11.0.3 as the default Java version.
+- `sdk use java <version>`: Sets the specified version of Java as the current default. For example, `sdk use java 11.0.3-zulu` sets Zulu OpenJDK 11.0.3 as the default Java version.
 
-  - `sdk list java`: Lists the available Java versions that can
+- `sdk list java`: Lists the available Java versions that can
   
 - `mvn clean install`: Builds the Java Forge project using Maven, resolving dependencies and generating the compiled output.
 
@@ -68,7 +67,7 @@ Refer to the respective documentation of each tool for more advanced usage and c
 Certainly! Here are some common Maven and Gradle commands that you can use when working with Java projects:
 </details>
 
-<details> 
+<details>
   <summary> Maven Commands </summary>
 
 - `mvn clean`: Cleans the project by deleting the target directory and any generated files.
@@ -84,6 +83,7 @@ Certainly! Here are some common Maven and Gradle commands that you can use when 
 - `mvn clean install`: Performs a clean build, including cleaning the project, compiling, running tests, and packaging the application.
 
 - `mvn dependency:tree`: Displays the dependency tree of the project, showing the dependencies and their versions.
+
 </details>
 
 <details>
@@ -104,9 +104,8 @@ Certainly! Here are some common Maven and Gradle commands that you can use when 
 - `gradle dependencies`: Displays the dependencies of the project, showing the dependencies and their versions.
 
 - `gradle tasks`: Displays the available tasks and their descriptions.
-</detials>
 </details>
-
+</details>
 
 ## Algorithms
 
