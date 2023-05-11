@@ -1,6 +1,6 @@
 # Java Forge
 
-Java Forge is a collection of Java code snippets, scripts, and examples that can be used as a reference for learning and development.
+Java Forge is my personal playground for learning and practicing the art of Java programming. This repository serves as a space where I can document my progress while also storing the code that I write along the way.
 
 ## Table of Contents
 
