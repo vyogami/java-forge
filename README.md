@@ -12,8 +12,8 @@ Java Forge is my personal playground for learning and practicing the art of Java
   - [Data Structures](#data-structures)
   - [Applied Mathematics](#applied-mathematics)
   - [Amity Java Programming](#amity-java-programming)
-    - [Playground](#playground)
-- [Snippets](#snippets)
+  - [Playground](#playground)
+  - [Snippets](#snippets)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -138,7 +138,7 @@ the appliedmathematics folder contains python code that implements various mathe
 
 The `amity-java-programming` folder contains source code for various projects that are part of the Amity Java Programming course. These projects are designed to help you apply the concepts learned in the course to real-world scenarios.
 
-### Playground
+## Playground
 
 The `playground` directory is where I experiment with new Python concepts and ideas. It contains a `Play.java` file which is untracked in git so feel free to explore and experiment in this directory.
 
@@ -148,7 +148,7 @@ The `playground` directory is where I experiment with new Python concepts and id
 git update-index --assume-unchanged ./playground/Play.java
 ```
 
-# Snippets
+## Snippets
 
 The `snippets` folder contains small code snippets that demonstrate various concepts in Java programming. These snippets are designed to be concise and easy to understand.
 
