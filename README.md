@@ -31,7 +31,7 @@ Alternatively, you can download the repository as a ZIP file and extract it to y
 
 ### Tools
 
-To work with the Java Forge repository effectively, you may find the following tools useful:
+To make your life easier, you may find the following tools useful:
 
 - **SDKMAN! (Software Development Kit Manager)**: SDKMAN! allows you to manage different versions of Java Development Kits (JDKs) on your system. You can use it to install, switch between, and manage Java versions. Refer to the SDKMAN! documentation for installation and usage instructions. Website: [https://sdkman.io/](https://sdkman.io/)
 
@@ -167,7 +167,3 @@ Please ensure that your code is well-documented and follows the [Java Code Conve
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-Sure! Here's an updated version of the readme file with the basic commands for SDKMAN! added:
-
-be installed and managed using SDKMAN!.
