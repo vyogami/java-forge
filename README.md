@@ -7,7 +7,7 @@ Java Forge is my personal playground for learning and practicing the art of Java
 - [Java Forge](#java-forge)
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
-    - [Tools](#tools)
+  - [Tools](#tools)
   - [Algorithms](#algorithms)
   - [Data Structures](#data-structures)
   - [Applied Mathematics](#applied-mathematics)
@@ -29,7 +29,7 @@ git clone https://github.com/legitShivam/java-forge.git
 
 Alternatively, you can download the repository as a ZIP file and extract it to your desired location.
 
-### Tools
+## Tools
 
 To make your life easier, you may find the following tools useful:
 
@@ -40,12 +40,12 @@ To make your life easier, you may find the following tools useful:
 - **Gradle**: Gradle is another build automation and dependency management tool for Java projects. It offers a flexible and efficient way to build, test, and package Java applications. You can install Gradle by referring to the official documentation. Website: [https://gradle.org/](https://gradle.org/)
 
 <details>
-  <summary> <h3> Basic Commands </h3> </summary>
+  <summary><h2> Basic Commands </h2></summary>
 
 Here are some basic commands that you may find helpful when working with this repository:
 
 <details>
-  <summary> SDKMAN! Commands: </summary>
+  <summary> SDKMAN! Commands </summary> 
 
 - `sdk version`: Checks the version of SDKMAN! installed on your system.
 
@@ -56,6 +56,7 @@ Here are some basic commands that you may find helpful when working with this re
 
 - `sdk list java`: Lists the available Java versions that can
 
+---
 </details>
 
 <details>
@@ -77,6 +78,7 @@ Here are some basic commands that you may find helpful when working with this re
 - `mvn exec:java`: Executes the main class of the project, main class is defined in the pom.xml.
   > use `-q` flag to run the commands in quite mode
 
+---
 </details>
 
 <details>
@@ -98,6 +100,7 @@ Here are some basic commands that you may find helpful when working with this re
 
 - `gradle tasks`: Displays the available tasks and their descriptions.
 
+---
 </details>
 
 <details>
@@ -119,6 +122,7 @@ Here are some basic commands that you may find helpful when working with this re
 
 - `javapackager`: Creates platform-specific native bundles (executable files) for Java applications. It is used to package Java applications as standalone executables.
 
+---
 </details>
 </details>
 
