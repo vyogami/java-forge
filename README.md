@@ -74,6 +74,8 @@ Here are some basic commands that you may find helpful when working with this re
 - `mvn clean install`: Performs a clean build, including cleaning the project, compiling, running tests, and packaging the application.
 
 - `mvn dependency:tree`: Displays the dependency tree of the project, showing the dependencies and their versions.
+- `mvn exec:java`: Executes the main class of the project, main class is defined in the pom.xml.
+  > use `-q` flag to run the commands in quite mode
 
 </details>
 
