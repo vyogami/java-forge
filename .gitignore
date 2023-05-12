@@ -6,6 +6,7 @@ tempCodeRunnerFile*
 target/
 
 # Gradle build directory
+.gradle/
 build/
 
 # Compiled output
