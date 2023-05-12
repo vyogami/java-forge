@@ -27,6 +27,7 @@ public class Pattern {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the dimension of the Half pyramid: ");
         numberOfRows = input.nextInt();
+        input.close();
         printNumberHalfPyramid(numberOfRows);
     }
 }

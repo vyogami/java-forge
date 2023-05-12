@@ -11,6 +11,7 @@ public class Menu {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the dimension of the Half pyramid: ");
         numberOfRows = input.nextInt();
+        input.close();
         Pattern.printNumberHalfPyramid(numberOfRows);
     }
 }
