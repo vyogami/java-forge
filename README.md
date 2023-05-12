@@ -62,6 +62,8 @@ Here are some basic commands that you may find helpful when working with this re
 <details>
   <summary> Maven Commands </summary>
 
+> use `-q` flag to run commands in quite mode.
+
 - `mvn clean`: Cleans the project by deleting the target directory and any generated files.
 
 - `mvn compile`: Compiles the source code of the project.
@@ -76,13 +78,15 @@ Here are some basic commands that you may find helpful when working with this re
 
 - `mvn dependency:tree`: Displays the dependency tree of the project, showing the dependencies and their versions.
 - `mvn exec:java`: Executes the main class of the project, main class is defined in the pom.xml.
-  > use `-q` flag to run the commands in quite mode
 
 ---
 </details>
 
 <details>
   <summary> Gradle Commands </summary>
+
+> you can subsitute `gradle` with wrapper scripts.
+> Use `./gradlew` for linux/mac and `./gradlew.bat` for windows
 
 - `gradle clean`: Cleans the project by deleting the build directory and any generated files.
 
