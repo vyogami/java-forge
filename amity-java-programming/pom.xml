@@ -27,7 +27,7 @@
                 <configuration>
                     <archive>
                     <manifest>
-                        <mainClass>main.java.driver.Menu</mainClass>
+                        <mainClass>driver.Menu</mainClass>
                     </manifest>
                     </archive>
                 </configuration>

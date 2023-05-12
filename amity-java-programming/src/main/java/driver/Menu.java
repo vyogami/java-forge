@@ -1,6 +1,6 @@
-package main.java.driver;
+package driver;
 
-import main.java.experiment1.Pattern;
+import experiment1.Pattern;
 import java.util.Scanner;
 
 public class Menu {
