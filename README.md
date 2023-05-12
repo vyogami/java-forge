@@ -45,7 +45,7 @@ To make your life easier, you may find the following tools useful:
 Here are some basic commands that you may find helpful when working with this repository:
 
 <details>
-  <summary> SDKMAN! Commands </summary> 
+  <summary> SDKMAN! Commands </summary>
 
 - `sdk version`: Checks the version of SDKMAN! installed on your system.
 
